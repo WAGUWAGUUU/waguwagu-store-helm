@@ -103,7 +103,7 @@ env:
   - name: "profiles"
     value: "prod"
   - name: "SPRING_DATASOURCE_URL"
-    value: "r2dbc:mysql://mysql:3306/store"
+    value: "jdbc:mysql://mysql:3306/store"
   - name: "username"
     value: "root"
   - name: "password"
