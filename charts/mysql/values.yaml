@@ -44,7 +44,7 @@ securityContext:
 service:
   type: NodePort
   port: 3306
-  targetPort: 3306
+  nodePort: 32001
 
 ingress:
   enabled: false
