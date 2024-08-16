@@ -108,8 +108,6 @@ env:
     value: "root"
   - name: "password"
     value: "1234"
-  - name: "SPRING_JPA_HIBERNATE_DDL_AUTO"
-    value: "create"
   - name: "SPRING_JPA_DATABASE_PLATFORM"
     value: "org.hibernate.dialect.MySQLDialect"
   - name: "KAFKAJS_NO_PARTITIONER_WARNING"
